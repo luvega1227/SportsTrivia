@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "780FA6ED1D333242008EE479"
-               BuildableName = "SportsTriviaTests.xctest"
+               BuildableName = "SportsTrivia.xctest"
                BlueprintName = "SportsTriviaTests"
                ReferencedContainer = "container:SportsTrivia.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "780FA6F81D333242008EE479"
-               BuildableName = "SportsTriviaUITests.xctest"
+               BuildableName = "SportsTrivia.xctest"
                BlueprintName = "SportsTriviaUITests"
                ReferencedContainer = "container:SportsTrivia.xcodeproj">
             </BuildableReference>

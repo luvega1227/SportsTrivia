@@ -1,3 +1,92 @@
+//
+////: Playground - noun: a place where people can play
+//
+//import UIKit
+//
+//
+//
+//// Current fuction has type [String]
+//// You want to use [Fact]
+//func shuffleArray(array: [String]) -> [String] {
+//    var arrayCopy = array
+//    var outputArray:[String] = []
+//    
+//    for _ in array {
+//        // Step 1
+//        let randIndex = Int(rand()%Int32(arrayCopy.count))
+//        let randomItem = arrayCopy.removeAtIndex(randIndex)
+//        
+//        // Step 2
+//        outputArray.append(randomItem)
+//    }
+//    
+//    return outputArray
+//}
+//
+//// Desired
+//struct Fact {
+//    var questions: String
+//    var answers: String
+//}
+//
+//func shuffleArrayOfFacts(array: [Fact]) -> [Fact] {
+//    var arrayCopy = array
+//    var outputArray:[Fact] = []
+//    
+//    for _ in array {
+//        // Step 1
+//        let randIndex = Int(rand()%Int32(arrayCopy.count))
+//        let randomItem = arrayCopy.removeAtIndex(randIndex)
+//        
+//        // Step 2
+//        outputArray.append(randomItem)
+//    }
+//    
+//    return outputArray
+//}
+//
+//
+//let facts = ["f1", "f2", "f3", "f4", "f5"]
+//shuffleArray(facts)
+//shuffleArray(facts)
+//shuffleArray(facts)
+//
+//
+//// Current
+//let qs = ["where he go", "what his name"]
+//let answers = ["10", "hight"]
+//
+//
+////// Desired
+////struct Fact {
+////    var question: String
+////    var answer: String
+////}
+//
+//let facts2 = [
+//    Fact(questions: "what is it?", answers: "it is good"),
+//    Fact(questions: "why is it?", answers: "it is bad")
+//]
+//
+//shuffleArrayOfFacts(facts2)
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+////djsfkjdsfjsdlkfjdsklfjdlsjfslkdj
+//
+
+
+
 
 
 import UIKit
@@ -8,7 +97,27 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        questionLabel.text = questions[currentQuestionIndex]
+        showNextQuestions(self)
+        
+        
+//        //        questionLabel.text = questions[currentQuestionIndex]
+//        doTheShuffle()
+    }
+    
+    func shuffleArray(array: [String]) -> [String] {
+        var arrayCopy = array
+        var outputArray:[String] = []
+        
+        for _ in array {
+            // Step 1
+            let randIndex = Int(arc()%Int32(arrayCopy.count))
+            let randomItem = arrayCopy.removeAtIndex(randIndex)
+            
+            // Step 2
+            outputArray.append(randomItem)
+        }
+        
+        return outputArray
     }
     
     let questions: [String] = ["One of the greatest Hockey players of all time, Wayne Gretzky, played for what team in the 1980s?",
@@ -74,7 +183,9 @@ class ViewController: UIViewController {
                              "5 minutes"
     ]
     
-    var currentQuestionIndex: Int = 0
+    
+    
+    var currentQuestionIndex: Int = Int(arc4random_uniform(28))
     
     @IBAction func showNextQuestions(sender: AnyObject) {
         ++currentQuestionIndex
@@ -93,3 +204,5 @@ class ViewController: UIViewController {
     }
     
 }
+
+

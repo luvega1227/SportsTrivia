@@ -41,10 +41,10 @@
 		780FA6E41D333242008EE479 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		780FA6E71D333242008EE479 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		780FA6E91D333242008EE479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		780FA6EE1D333242008EE479 /* SportsTriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsTriviaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		780FA6EE1D333242008EE479 /* SportsTrivia.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsTrivia.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		780FA6F21D333242008EE479 /* SportsTriviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsTriviaTests.swift; sourceTree = "<group>"; };
 		780FA6F41D333242008EE479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		780FA6F91D333242008EE479 /* SportsTriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsTriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		780FA6F91D333242008EE479 /* SportsTrivia.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsTrivia.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		780FA6FD1D333242008EE479 /* SportsTriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsTriviaUITests.swift; sourceTree = "<group>"; };
 		780FA6FF1D333242008EE479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,8 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				780FA6DA1D333242008EE479 /* SportsTrivia.app */,
-				780FA6EE1D333242008EE479 /* SportsTriviaTests.xctest */,
-				780FA6F91D333242008EE479 /* SportsTriviaUITests.xctest */,
+				780FA6EE1D333242008EE479 /* SportsTrivia.xctest */,
+				780FA6F91D333242008EE479 /* SportsTrivia.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,7 +160,7 @@
 			);
 			name = SportsTriviaTests;
 			productName = SportsTriviaTests;
-			productReference = 780FA6EE1D333242008EE479 /* SportsTriviaTests.xctest */;
+			productReference = 780FA6EE1D333242008EE479 /* SportsTrivia.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		780FA6F81D333242008EE479 /* SportsTriviaUITests */ = {
@@ -178,7 +178,7 @@
 			);
 			name = SportsTriviaUITests;
 			productName = SportsTriviaUITests;
-			productReference = 780FA6F91D333242008EE479 /* SportsTriviaUITests.xctest */;
+			productReference = 780FA6F91D333242008EE479 /* SportsTrivia.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -188,11 +188,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Vega;
 				TargetAttributes = {
 					780FA6D91D333242008EE479 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WAPT3UT2F4;
 					};
 					780FA6ED1D333242008EE479 = {
 						CreatedOnToolsVersion = 7.3;
@@ -326,8 +327,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -354,6 +357,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -372,8 +376,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -392,6 +398,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -401,10 +409,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				DEVELOPMENT_TEAM = WAPT3UT2F4;
 				INFOPLIST_FILE = SportsTrivia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vega.SportsTrivia;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SportsTrivia;
 			};
 			name = Debug;
 		};
@@ -412,10 +422,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				DEVELOPMENT_TEAM = WAPT3UT2F4;
 				INFOPLIST_FILE = SportsTrivia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vega.SportsTrivia;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SportsTrivia;
 			};
 			name = Release;
 		};
@@ -426,7 +438,7 @@
 				INFOPLIST_FILE = SportsTriviaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vega.SportsTriviaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SportsTrivia;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsTrivia.app/SportsTrivia";
 			};
 			name = Debug;
@@ -438,7 +450,7 @@
 				INFOPLIST_FILE = SportsTriviaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vega.SportsTriviaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SportsTrivia;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsTrivia.app/SportsTrivia";
 			};
 			name = Release;
@@ -449,7 +461,7 @@
 				INFOPLIST_FILE = SportsTriviaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vega.SportsTriviaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SportsTrivia;
 				TEST_TARGET_NAME = SportsTrivia;
 			};
 			name = Debug;
@@ -460,7 +472,7 @@
 				INFOPLIST_FILE = SportsTriviaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vega.SportsTriviaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SportsTrivia;
 				TEST_TARGET_NAME = SportsTrivia;
 			};
 			name = Release;
@@ -484,6 +496,7 @@
 				780FA7041D333242008EE479 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		780FA7051D333242008EE479 /* Build configuration list for PBXNativeTarget "SportsTriviaTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				780FA7071D333242008EE479 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		780FA7081D333242008EE479 /* Build configuration list for PBXNativeTarget "SportsTriviaUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				780FA70A1D333242008EE479 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
