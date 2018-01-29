@@ -31,12 +31,12 @@
 		78ABBF0D201EB01A0002B065 /* CorrectAnswer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 78ABBF0A201EB01A0002B065 /* CorrectAnswer.wav */; };
 		78ABBF0E201EB01A0002B065 /* WrongAnswer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 78ABBF0B201EB01A0002B065 /* WrongAnswer.wav */; };
 		78ABBF0F201EB01A0002B065 /* GameSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 78ABBF0C201EB01A0002B065 /* GameSound.wav */; };
-		78ABBF11201EB0E80002B065 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78ABBF10201EB0E80002B065 /* QuizViewController.swift */; };
 		78B9231A201EB44C000978C3 /* FootballQuestions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78B92319201EB44C000978C3 /* FootballQuestions.plist */; };
 		78B9231C201EB453000978C3 /* BasketballQuestions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78B9231B201EB453000978C3 /* BasketballQuestions.plist */; };
 		78B9231E201EB45C000978C3 /* BaseballQuestions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78B9231D201EB45B000978C3 /* BaseballQuestions.plist */; };
 		78B92320201EB464000978C3 /* SoccerQuestions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78B9231F201EB464000978C3 /* SoccerQuestions.plist */; };
 		78B92322201EB46A000978C3 /* HockeyQuestions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78B92321201EB46A000978C3 /* HockeyQuestions.plist */; };
+		78B92324201EC269000978C3 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B92323201EC269000978C3 /* QuizViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,12 +105,12 @@
 		78ABBF0A201EB01A0002B065 /* CorrectAnswer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = CorrectAnswer.wav; path = SportsTrivia/CorrectAnswer.wav; sourceTree = "<group>"; };
 		78ABBF0B201EB01A0002B065 /* WrongAnswer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = WrongAnswer.wav; path = SportsTrivia/WrongAnswer.wav; sourceTree = "<group>"; };
 		78ABBF0C201EB01A0002B065 /* GameSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = GameSound.wav; path = SportsTrivia/GameSound.wav; sourceTree = "<group>"; };
-		78ABBF10201EB0E80002B065 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		78B92319201EB44C000978C3 /* FootballQuestions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FootballQuestions.plist; sourceTree = "<group>"; };
 		78B9231B201EB453000978C3 /* BasketballQuestions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BasketballQuestions.plist; sourceTree = "<group>"; };
 		78B9231D201EB45B000978C3 /* BaseballQuestions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BaseballQuestions.plist; sourceTree = "<group>"; };
 		78B9231F201EB464000978C3 /* SoccerQuestions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SoccerQuestions.plist; sourceTree = "<group>"; };
 		78B92321201EB46A000978C3 /* HockeyQuestions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HockeyQuestions.plist; sourceTree = "<group>"; };
+		78B92323201EC269000978C3 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,7 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				78ABBEF5201EA7330002B065 /* HomeViewController.swift */,
-				78ABBF10201EB0E80002B065 /* QuizViewController.swift */,
+				78B92323201EC269000978C3 /* QuizViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -468,7 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78ABBEC4201EA0810002B065 /* SoundCoordinator.swift in Sources */,
-				78ABBF11201EB0E80002B065 /* QuizViewController.swift in Sources */,
+				78B92324201EC269000978C3 /* QuizViewController.swift in Sources */,
 				78ABBEBA201E9FF00002B065 /* QuizType.swift in Sources */,
 				78ABBEF6201EA7330002B065 /* HomeViewController.swift in Sources */,
 				780FA6DE1D333242008EE479 /* AppDelegate.swift in Sources */,

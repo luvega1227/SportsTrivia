@@ -47,7 +47,7 @@ class QuizViewController: UIViewController {
     var timer: Timer?
     var time = 10
     @IBOutlet weak var timerLabel: UILabel!
-
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         navigationBarSetup()
@@ -146,8 +146,9 @@ class QuizViewController: UIViewController {
         stopTimer()
         
     }
-    
+
     @IBAction func checkAnswer(_ sender: UIButton) {
+        
         // Increment the questions asked counter
         questionsAsked += 1
         timerLabel.isHidden = true
@@ -256,7 +257,7 @@ class QuizViewController: UIViewController {
             }
         }
     }
-    
+
     @IBAction func playAgain() {
         // Show the answer buttons
         choice1.isHidden = false
@@ -269,6 +270,7 @@ class QuizViewController: UIViewController {
         correctQuestions = 0
         nextRound()
     }
+    
     
     // MARK: - Timer & Button Setup
     
@@ -376,7 +378,4 @@ class QuizViewController: UIViewController {
             self.nextRound()
         }
     }
-    
 }
-
-
