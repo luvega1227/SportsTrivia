@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>question</key>
+		<string>Who won the 1994 FIFA World Cup?</string>
+		<key>answer</key>
+		<string>Brazil</string>
+		<key>choice01</key>
+		<string>Italy</string>
+		<key>choice02</key>
+		<string>Germany</string>
+		<key>choice03</key>
+		<string>France</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of these star soccer players has never played for Real Madrid?</string>
+		<key>answer</key>
+		<string>Lionel Messi</string>
+		<key>choice01</key>
+		<string>David Beckham</string>
+		<key>choice02</key>
+		<string>Zinedine Zidane</string>
+		<key>choice03</key>
+		<string>Cristiano Ronaldo</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>According to the official FIFA rulebook, how long can a goalkeeper hold onto the ball for?</string>
+		<key>answer</key>
+		<string>5 seconds</string>
+		<key>choice01</key>
+		<string>30 seconds</string>
+		<key>choice02</key>
+		<string>10 seconds</string>
+		<key>choice03</key>
+		<string>Until he feels like letting go</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Anfield is the home of which English Premier League club?</string>
+		<key>answer</key>
+		<string>Manchester United</string>
+		<key>choice01</key>
+		<string>West Ham United</string>
+		<key>choice02</key>
+		<string>Liverpool</string>
+		<key>choice03</key>
+		<string>Everton</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of these players has never played for Manchester United?</string>
+		<key>answer</key>
+		<string>Bobby Moore</string>
+		<key>choice01</key>
+		<string>Eric Cantona</string>
+		<key>choice02</key>
+		<string>Ryan Giggs</string>
+		<key>choice03</key>
+		<string>Mark Hughes</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Why did the Indian national team withdraw from the FIFA World Cup competition in 1950?</string>
+		<key>answer</key>
+		<string>Because they could not play barefoot</string>
+		<key>choice01</key>
+		<string>As a political protest</string>
+		<key>choice02</key>
+		<string>Not have enough players </string>
+		<key>choice03</key>
+		<string>Soccer myth</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>In the MLS in what city does the team Chivas USA play?</string>
+		<key>answer</key>
+		<string>Carson, California</string>
+		<key>choice01</key>
+		<string>Buffalo, New York</string>
+		<key>choice02</key>
+		<string>Baltimore, Maryland</string>
+		<key>choice03</key>
+		<string>Phoenix, Arizona</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>What are the home colors of the FC Barcelona soccer uniform?</string>
+		<key>answer</key>
+		<string>Blue and Red</string>
+		<key>choice01</key>
+		<string>Orange and White</string>
+		<key>choice02</key>
+		<string>Black and White</string>
+		<key>choice03</key>
+		<string>Yellow and Blue</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Back in the Mls, who is the all time leading goal scorer in the league?</string>
+		<key>answer</key>
+		<string>Jaime Moreno</string>
+		<key>choice01</key>
+		<string>Landon Donovan</string>
+		<key>choice02</key>
+		<string>David Beckham</string>
+		<key>choice03</key>
+		<string>Carlos Ruiz</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of these teams is not playing in the the EPL in the 2009-2010 season?</string>
+		<key>answer</key>
+		<string>Newcastle United</string>
+		<key>choice01</key>
+		<string>Birmingham City</string>
+		<key>choice02</key>
+		<string>Burnley FC</string>
+		<key>choice03</key>
+		<string>Wigan Athletic</string>
+	</dict>
+</array>
+</plist>

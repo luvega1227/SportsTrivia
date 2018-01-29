@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>question</key>
+		<string>Which of the following set a record for being the youngest 100 point player?</string>
+		<key>answer</key>
+		<string>Dale Hawerchuck </string>
+		<key>choice01</key>
+		<string>Wayne Gretzky</string>
+		<key>choice02</key>
+		<string>Bobby Orr</string>
+		<key>choice03</key>
+		<string>Rick MacLeish</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of these players wears a Bauer helmet?</string>
+		<key>answer</key>
+		<string>Ray Bourque</string>
+		<key>choice01</key>
+		<string>Peter Forsberg</string>
+		<key>choice02</key>
+		<string>Steve Yzerman</string>
+		<key>choice03</key>
+		<string>Jaromir Jagr</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of these teams never won a Stanley Cup?</string>
+		<key>answer</key>
+		<string>Windsor Bulldogs</string>
+		<key>choice01</key>
+		<string>Kenora Thistles</string>
+		<key>choice02</key>
+		<string>Seattle Metropolitians</string>
+		<key>choice03</key>
+		<string>Toronto Blueshirts</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of the following set a record for being the oldest player to reach his first 50 goal season?</string>
+		<key>answer</key>
+		<string>Johnny Bucyk</string>
+		<key>choice01</key>
+		<string>Dave Shultz</string>
+		<key>choice02</key>
+		<string>Gordie Howe</string>
+		<key>choice03</key>
+		<string>Bobby Hull</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of these players did not play in over 1500 regular season games in their career?</string>
+		<key>answer</key>
+		<string>Larry Robinson</string>
+		<key>choice01</key>
+		<string>Ron Francis</string>
+		<key>choice02</key>
+		<string>Ray Bourque</string>
+		<key>choice03</key>
+		<string>Larry Murphy</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of these NHL players did not score 50 goals in their rookie NHL season?</string>
+		<key>answer</key>
+		<string>Mario Lemieux</string>
+		<key>choice01</key>
+		<string>Joe Nieuwendyk</string>
+		<key>choice02</key>
+		<string>Teemu Selanne</string>
+		<key>choice03</key>
+		<string>Mike Bossy</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of the following NHL teams played more playoff games in the 1990s than any other?</string>
+		<key>answer</key>
+		<string>Pittsburgh Penguins</string>
+		<key>choice01</key>
+		<string>Detroit Red Wings</string>
+		<key>choice02</key>
+		<string>St. Louis Blues</string>
+		<key>choice03</key>
+		<string>New Jersey Devils</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of the following franchises boasts a history of being the most successful Minor League team prior to joining the NHL?</string>
+		<key>answer</key>
+		<string>Vancouver Canucks</string>
+		<key>choice01</key>
+		<string>Buffalo Sabres</string>
+		<key>choice02</key>
+		<string>St. Louis Blues</string>
+		<key>choice03</key>
+		<string>Washington Capitals</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of the Sutter brothers is Ron&apos;s twin?</string>
+		<key>answer</key>
+		<string>Rich</string>
+		<key>choice01</key>
+		<string>Brian</string>
+		<key>choice02</key>
+		<string>Duane</string>
+		<key>choice03</key>
+		<string>Brent</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>One of these teams has never existed. Which of these 4 teams never have been a member of the NHL?</string>
+		<key>answer</key>
+		<string>Vancouver Millionaires</string>
+		<key>choice01</key>
+		<string>Philadelphia Quakers</string>
+		<key>choice02</key>
+		<string>Hamilton Tigers</string>
+		<key>choice03</key>
+		<string>Quebec Bulldogs</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of the following teams once lost 71 games in one season?</string>
+		<key>answer</key>
+		<string>San Jose Sharks</string>
+		<key>choice01</key>
+		<string>Ottawa Senators</string>
+		<key>choice02</key>
+		<string>Washington Capitals</string>
+		<key>choice03</key>
+		<string>Quebec Nordiques</string>
+	</dict>
+</array>
+</plist>

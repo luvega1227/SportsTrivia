@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>question</key>
+		<string>Atlanta is the fourth home of the NBA&apos;s Hawks. Which of the following is NOT one of their previous locations?</string>
+		<key>answer</key>
+		<string>Chicago, Illinois</string>
+		<key>choice01</key>
+		<string>E. Moline, Illinois</string>
+		<key>choice02</key>
+		<string>Milwaukee, Wisconsin</string>
+		<key>choice03</key>
+		<string>St. Louis, Missouri</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>The team currently known as the Los Angeles Clippers was originally known as the:</string>
+		<key>answer</key>
+		<string>Buffalo Braves</string>
+		<key>choice01</key>
+		<string>San Diego Conquistadors</string>
+		<key>choice02</key>
+		<string>Oakland Clippers</string>
+		<key>choice03</key>
+		<string>Baltimore Bullets</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which one of these is not a 1st overall draft pick?</string>
+		<key>answer</key>
+		<string>Dikembe Mutombo</string>
+		<key>choice01</key>
+		<string>Chris Webber</string>
+		<key>choice02</key>
+		<string>Allen Iverson</string>
+		<key>choice03</key>
+		<string>Kenyon Martin</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>The team known as the Sacramento Kings previously resided in all of the following cities EXCEPT:</string>
+		<key>answer</key>
+		<string>Oakland, CA</string>
+		<key>choice01</key>
+		<string>Rochester, NY</string>
+		<key>choice02</key>
+		<string>Cincinnati, OH</string>
+		<key>choice03</key>
+		<string>Kansas City, MO</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>At the beginning of the twenty-first century, which of these arenas was the oldest still in use?</string>
+		<key>answer</key>
+		<string>The Oracle Arena</string>
+		<key>choice01</key>
+		<string>The BMO Harris Bradley Center</string>
+		<key>choice02</key>
+		<string>The Palace Of Auburn Hills</string>
+		<key>choice03</key>
+		<string>The Target Center</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>The club currently known as the Houston Rockets originated in....</string>
+		<key>answer</key>
+		<string>San Diego, CA</string>
+		<key>choice01</key>
+		<string>Toledo, OH</string>
+		<key>choice02</key>
+		<string>Huntsville, AL</string>
+		<key>choice03</key>
+		<string>They have always been in Houston</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of the following players is the son of Jimmy Walker?</string>
+		<key>answer</key>
+		<string>Jalen Rose</string>
+		<key>choice01</key>
+		<string>Samaki Walker</string>
+		<key>choice02</key>
+		<string>Antoine Walker</string>
+		<key>choice03</key>
+		<string>Tony Dumas</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which team was the first to win back to back NBA titles?</string>
+		<key>answer</key>
+		<string>Lakers</string>
+		<key>choice01</key>
+		<string>Celtics</string>
+		<key>choice02</key>
+		<string>Rockets</string>
+		<key>choice03</key>
+		<string>Bulls</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of these played with Tim Duncan?</string>
+		<key>answer</key>
+		<string>Loren Woods</string>
+		<key>choice01</key>
+		<string>Jerry Stackhouse</string>
+		<key>choice02</key>
+		<string>Ken Johnson</string>
+		<key>choice03</key>
+		<string>Jeff Foster</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>The Washington Wizards has previously been known as all of the following EXCEPT:</string>
+		<key>answer</key>
+		<string>Washington Senators</string>
+		<key>choice01</key>
+		<string>Chicago Packers</string>
+		<key>choice02</key>
+		<string>Chicago Zephyrs</string>
+		<key>choice03</key>
+		<string>Baltimore Bullets</string>
+	</dict>
+</array>
+</plist>

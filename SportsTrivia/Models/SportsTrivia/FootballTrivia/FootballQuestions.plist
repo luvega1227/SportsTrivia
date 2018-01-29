@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>question</key>
+		<string>Which team features a lightning bolt on its helmet?</string>
+		<key>answer</key>
+		<string>Los Angeles Chargers</string>
+		<key>choice01</key>
+		<string>New England Patriots</string>
+		<key>choice02</key>
+		<string>Baltimore Ravens</string>
+		<key>choice03</key>
+		<string>New York Jets</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which one of the following is not a position in football?</string>
+		<key>answer</key>
+		<string>Doubleback</string>
+		<key>choice01</key>
+		<string>Quarterback</string>
+		<key>choice02</key>
+		<string>Halfback</string>
+		<key>choice03</key>
+		<string>Lineback</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>This is the place on the field that you must step into to score a touchdown.</string>
+		<key>answer</key>
+		<string>the end zone</string>
+		<key>choice01</key>
+		<string>the TD zone</string>
+		<key>choice02</key>
+		<string>the goal</string>
+		<key>choice03</key>
+		<string>the half zone</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Their color scheme is purple and gold.</string>
+		<key>answer</key>
+		<string>Minnesota Vikings</string>
+		<key>choice01</key>
+		<string>Green Bay Packers</string>
+		<key>choice02</key>
+		<string>Baltimore Ravens</string>
+		<key>choice03</key>
+		<string>Chicago Bears</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which one of these numbers would be LEAST likely to be worn by a runningback in the NFL?</string>
+		<key>answer</key>
+		<string>12</string>
+		<key>choice01</key>
+		<string>43</string>
+		<key>choice02</key>
+		<string>21</string>
+		<key>choice03</key>
+		<string>32</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which one of these is NOT a defensive position?</string>
+		<key>answer</key>
+		<string>Center</string>
+		<key>choice01</key>
+		<string>Safety</string>
+		<key>choice02</key>
+		<string>Linebacker</string>
+		<key>choice03</key>
+		<string>Corner back</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of these positions is one that doesn&apos;t get the ball passed to them?</string>
+		<key>answer</key>
+		<string>corner back</string>
+		<key>choice01</key>
+		<string>tight end</string>
+		<key>choice02</key>
+		<string>running back</string>
+		<key>choice03</key>
+		<string>quarter back</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which one of these words means to knock a person down in football?</string>
+		<key>answer</key>
+		<string>Tackle</string>
+		<key>choice01</key>
+		<string>Punt</string>
+		<key>choice02</key>
+		<string>Interception</string>
+		<key>choice03</key>
+		<string>Touchdown</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>This team shares a logo with the University of Georgia</string>
+		<key>answer</key>
+		<string>Green Bay Packers</string>
+		<key>choice01</key>
+		<string>Washington Redskins</string>
+		<key>choice02</key>
+		<string>Arizona Cardinals</string>
+		<key>choice03</key>
+		<string>Miami Dolphins</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>This team got their name from a poem!</string>
+		<key>answer</key>
+		<string>Baltimore Ravens</string>
+		<key>choice01</key>
+		<string>Chicago Bears</string>
+		<key>choice02</key>
+		<string>Detroit Lions</string>
+		<key>choice03</key>
+		<string>San Francisco 49ers</string>
+	</dict>
+</array>
+</plist>

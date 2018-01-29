@@ -15,10 +15,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SportsTrivia" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="SportsTrivia" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -134,15 +134,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9iW-3P-E5T"/>
+                    <connections>
+                        <outlet property="emptySpace" destination="xkR-k9-OG9" id="wPD-dU-W8F"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1144.8" y="329.68515742128938"/>
         </scene>
-        <!--View Controller-->
+        <!--Quiz View Controller-->
         <scene sceneID="Fh4-gD-Tct">
             <objects>
-                <viewController id="8Sl-9k-ppT" sceneMemberID="viewController">
+                <viewController id="8Sl-9k-ppT" customClass="QuizViewController" customModule="SportsTrivia" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zf2-ON-zxa"/>
                         <viewControllerLayoutGuide type="bottom" id="Nue-xa-jkV"/>
@@ -250,6 +253,17 @@
                             <constraint firstItem="Nue-xa-jkV" firstAttribute="top" relation="lessThanOrEqual" secondItem="54j-nD-75D" secondAttribute="bottom" constant="12" id="lgb-3U-aQU"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="choice1" destination="WTm-Rh-1FF" id="z1p-Zo-ZeZ"/>
+                        <outlet property="choice2" destination="nNA-Nf-I4h" id="QUo-cm-GJq"/>
+                        <outlet property="choice3" destination="nyu-9b-KvJ" id="yIF-sd-56u"/>
+                        <outlet property="choice4" destination="nar-Mh-zYy" id="jq6-fO-qJb"/>
+                        <outlet property="outcomeField" destination="caB-t6-M2v" id="NfD-Tk-JlP"/>
+                        <outlet property="playAgainButton" destination="O98-Lc-6qh" id="Hbi-qj-cY9"/>
+                        <outlet property="progressLabel" destination="Hhd-Jq-h67" id="R5C-db-Foj"/>
+                        <outlet property="questionField" destination="S6D-0q-G0Z" id="2m1-2j-LEV"/>
+                        <outlet property="timerLabel" destination="qkF-gi-7ev" id="brr-6r-MSc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LuA-aM-0gD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

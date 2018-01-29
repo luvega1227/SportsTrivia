@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>question</key>
+		<string>Which of these Yankee baseball greats set a Major League record for having 40 RBIs in World Series play?</string>
+		<key>answer</key>
+		<string>Mickey Mantle</string>
+		<key>choice01</key>
+		<string>Lou Gehrig</string>
+		<key>choice02</key>
+		<string>Yogi Berra</string>
+		<key>choice03</key>
+		<string>Joe DiMaggio</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of these sluggers led their league in strikeouts the most times?</string>
+		<key>answer</key>
+		<string>Jimmie Foxx</string>
+		<key>choice01</key>
+		<string>Vince DiMaggio</string>
+		<key>choice02</key>
+		<string>Reggie Jackson</string>
+		<key>choice03</key>
+		<string>Mickey Mantle</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>The Baseball Hall of Fame inducted 5 players in 1936, its inaugural year. Name this all star that was NOT included in the original class.</string>
+		<key>answer</key>
+		<string>Lou Gehrig</string>
+		<key>choice01</key>
+		<string>Babe Ruth</string>
+		<key>choice02</key>
+		<string>Christy Mathewson</string>
+		<key>choice03</key>
+		<string>Ty Cobb</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of these teams was two outs away in game seven from winning their first World Series in 49 years, but still ended up losing that World Series?</string>
+		<key>answer</key>
+		<string>Cleveland Indians</string>
+		<key>choice01</key>
+		<string>Boston Red Sox</string>
+		<key>choice02</key>
+		<string>San Francisco Giants</string>
+		<key>choice03</key>
+		<string>Chicago White Sox</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>After the great Babe Ruth, who was the next Major Leaguer to hit 50 home runs in a season?</string>
+		<key>answer</key>
+		<string>Hack Wilson</string>
+		<key>choice01</key>
+		<string>Hank Greenberg</string>
+		<key>choice02</key>
+		<string>Jimmie Foxx</string>
+		<key>choice03</key>
+		<string>Ralph Kiner</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of the following pitching greats lost 200+ games in their career?</string>
+		<key>answer</key>
+		<string>Warren Spahn</string>
+		<key>choice01</key>
+		<string>Bob Gibson</string>
+		<key>choice02</key>
+		<string>Sandy Koufax</string>
+		<key>choice03</key>
+		<string>Hoyt Wilhelm</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of the following set a record for winning a batting title, and it being the lowest average for a batting crown?</string>
+		<key>answer</key>
+		<string>Carl Yastrzemski</string>
+		<key>choice01</key>
+		<string>Ty Cobb</string>
+		<key>choice02</key>
+		<string>Mickey Vernon</string>
+		<key>choice03</key>
+		<string>Paul Waner</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of following Hall of Fame and Cy Young pitching greats threw the most strikeouts in their career?</string>
+		<key>answer</key>
+		<string>Gaylord Perry</string>
+		<key>choice01</key>
+		<string>Ferguson Jenkins</string>
+		<key>choice02</key>
+		<string>Sandy Koufax</string>
+		<key>choice03</key>
+		<string>Warren Spahn</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>In the 1960s, 11 different teams went to the World Series. Which of the following was not one of them?</string>
+		<key>answer</key>
+		<string>Cleveland Indians</string>
+		<key>choice01</key>
+		<string>St. Louis Cardinals</string>
+		<key>choice02</key>
+		<string>San Francisco Giants</string>
+		<key>choice03</key>
+		<string>Baltimore Orioles</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of the following did not have 3000 hits in their career?</string>
+		<key>answer</key>
+		<string>Rogers Hornsby</string>
+		<key>choice01</key>
+		<string>Rafael Palmeiro</string>
+		<key>choice02</key>
+		<string>Willie Mays</string>
+		<key>choice03</key>
+		<string>Paul Waner</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Which of the following never struck out 100 times in a season?</string>
+		<key>answer</key>
+		<string>Babe Ruth</string>
+		<key>choice01</key>
+		<string>Willie Mays</string>
+		<key>choice02</key>
+		<string>Reggie Jackson</string>
+		<key>choice03</key>
+		<string>Mike Schmidt</string>
+	</dict>
+</array>
+</plist>
