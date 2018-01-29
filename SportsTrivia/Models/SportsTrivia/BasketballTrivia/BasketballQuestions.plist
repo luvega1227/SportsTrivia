@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>question</key>
-		<string>Atlanta is the fourth home of the NBA&apos;s Hawks. Which of the following is NOT one of their previous locations?</string>
+		<string>Atlanta is the 4th home of the NBA&apos;s Hawks. Which of the following is NOT one of their previous locations?</string>
 		<key>answer</key>
 		<string>Chicago, Illinois</string>
 		<key>choice01</key>

@@ -42,6 +42,8 @@ class QuizViewController: UIViewController {
     @IBOutlet weak var choice3: UIButton!
     @IBOutlet weak var choice4: UIButton!
     @IBOutlet weak var playAgainButton: UIButton!
+    @IBOutlet weak var nextQuestionButton: UIButton!
+    
     
     // Timer
     var timer: Timer?
@@ -56,7 +58,7 @@ class QuizViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
-        //        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(displayCountDown), userInfo: nil, repeats: true)
+
         soundCoordinator.playGameStartSound()
     }
     
@@ -93,12 +95,15 @@ class QuizViewController: UIViewController {
     
     func displayQuestion() {
         
+        // Hidden lables and buttons
         timerLabel.isHidden = false
-        let question = questionsArray[questionIndex]
-        questionField.text = question.question
         playAgainButton.isHidden = true
+        nextQuestionButton.isHidden = true
         outcomeField.text = ""
         outcomeField.isHidden = false
+        
+        let question = questionsArray[questionIndex]
+        questionField.text = question.question
         
         //Answers
         choice1.setTitle(question.choicesArray[0], for: UIControlState())
@@ -146,7 +151,9 @@ class QuizViewController: UIViewController {
         stopTimer()
         
     }
-
+    
+    // When user presses choice...
+    
     @IBAction func checkAnswer(_ sender: UIButton) {
         
         // Increment the questions asked counter
@@ -230,12 +237,17 @@ class QuizViewController: UIViewController {
             }
         }
         
-        loadNextRoundWithDelay(seconds: 2)
+        // Next Question Button Appears
+        nextQuestionButton.isHidden = false
     }
     
     func nextRound() {
         if questionsAsked == questionsPerRound {
+            
             // Game is over
+            stopTimer()
+            nextQuestionButton.isHidden = true
+            
             
             guard let quizType = quizType else {
                 return
@@ -248,6 +260,8 @@ class QuizViewController: UIViewController {
             displayScore()
             
         } else {
+            
+            
             // Continue game
             displayQuestion()
             let buttonsArray = [choice1, choice2, choice3, choice4]
@@ -255,6 +269,7 @@ class QuizViewController: UIViewController {
             for button in buttonsArray {
                 button!.alpha = 1.0
             }
+            
         }
     }
 
@@ -270,6 +285,15 @@ class QuizViewController: UIViewController {
         correctQuestions = 0
         nextRound()
     }
+    
+    @IBAction func nextQuestionAction() {
+        
+        // call...
+        displayQuestion()
+        
+        return loadNextRoundWithDelay(seconds: 0)
+    }
+    
     
     
     // MARK: - Timer & Button Setup
@@ -289,6 +313,7 @@ class QuizViewController: UIViewController {
             stopTimer()
             outcomeField.text = "Time's up! \n the correct answer is \(correctAnswer)!"
             outcomeField.textColor = UIColor.yellow
+            nextQuestionButton.isHidden = false
             timerLabel.isHidden = true
             questionsAsked += 1
             soundCoordinator.playIncorrectAnswerSound()

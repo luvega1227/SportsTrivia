@@ -28,7 +28,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>The Baseball Hall of Fame inducted 5 players in 1936, its inaugural year. Name this all star that was NOT included in the original class.</string>
+		<string>The Baseball Hall of Fame inducted 5 players in 1936. Name an all star that was NOT included.</string>
 		<key>answer</key>
 		<string>Lou Gehrig</string>
 		<key>choice01</key>
@@ -40,7 +40,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Which of these teams was two outs away in game seven from winning their first World Series in 49 years, but still ended up losing that World Series?</string>
+		<string>Which of these teams was 2 outs away in game 7 from winning their first World Series in 49 years, but still lost?</string>
 		<key>answer</key>
 		<string>Cleveland Indians</string>
 		<key>choice01</key>
