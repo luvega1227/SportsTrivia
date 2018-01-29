@@ -28,7 +28,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>This is the place on the field that you must step into to score a touchdown.</string>
+		<string>Position on the field to score a touchdown.</string>
 		<key>answer</key>
 		<string>the end zone</string>
 		<key>choice01</key>
@@ -52,7 +52,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Which one of these numbers would be LEAST likely to be worn by a runningback in the NFL?</string>
+		<string>Numbers LEAST likely to be worn by a runningback?</string>
 		<key>answer</key>
 		<string>12</string>
 		<key>choice01</key>
@@ -76,7 +76,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Which of these positions is one that doesn&apos;t get the ball passed to them?</string>
+		<string>Which position doesn&apos;t get the ball passed to them?</string>
 		<key>answer</key>
 		<string>corner back</string>
 		<key>choice01</key>
@@ -88,7 +88,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Which one of these words means to knock a person down in football?</string>
+		<string>Which word means to knock a person down in football?</string>
 		<key>answer</key>
 		<string>Tackle</string>
 		<key>choice01</key>

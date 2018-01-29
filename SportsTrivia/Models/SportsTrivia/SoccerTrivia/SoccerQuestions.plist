@@ -16,7 +16,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Which of these star soccer players has never played for Real Madrid?</string>
+		<string>Who has never played for Real Madrid?</string>
 		<key>answer</key>
 		<string>Lionel Messi</string>
 		<key>choice01</key>
@@ -28,7 +28,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>According to the official FIFA rulebook, how long can a goalkeeper hold onto the ball for?</string>
+		<string>How long can a goalkeeper hold onto the ball for?</string>
 		<key>answer</key>
 		<string>5 seconds</string>
 		<key>choice01</key>
@@ -52,7 +52,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Which of these players has never played for Manchester United?</string>
+		<string>Who has never played for Manchester United?</string>
 		<key>answer</key>
 		<string>Bobby Moore</string>
 		<key>choice01</key>
@@ -64,9 +64,9 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Why did the Indian national team withdraw from the FIFA World Cup competition in 1950?</string>
+		<string>In 1950, why did India withdraw from the World Cup?</string>
 		<key>answer</key>
-		<string>Because they could not play barefoot</string>
+		<string>They couldn&apos;t play barefoot</string>
 		<key>choice01</key>
 		<string>As a political protest</string>
 		<key>choice02</key>
@@ -100,7 +100,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Back in the Mls, who is the all time leading goal scorer in the league?</string>
+		<string>Who is the all time leading goal scorer in the league?</string>
 		<key>answer</key>
 		<string>Jaime Moreno</string>
 		<key>choice01</key>

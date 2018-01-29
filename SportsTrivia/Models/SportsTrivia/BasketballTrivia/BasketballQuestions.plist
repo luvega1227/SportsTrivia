@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>question</key>
-		<string>Atlanta is the 4th home of the NBA&apos;s Hawks. Which of the following is NOT one of their previous locations?</string>
+		<string>Atlanta is the 4th home of the NBA&apos;s Hawks. Which location is NOT?</string>
 		<key>answer</key>
 		<string>Chicago, Illinois</string>
 		<key>choice01</key>
@@ -16,7 +16,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>The team currently known as the Los Angeles Clippers was originally known as the:</string>
+		<string>The Los Angeles Clippers was originally known as the:</string>
 		<key>answer</key>
 		<string>Buffalo Braves</string>
 		<key>choice01</key>
@@ -40,7 +40,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>The team known as the Sacramento Kings previously resided in all of the following cities EXCEPT:</string>
+		<string>Sacramento Kings resided in all of the following cities EXCEPT:</string>
 		<key>answer</key>
 		<string>Oakland, CA</string>
 		<key>choice01</key>
@@ -52,7 +52,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>At the beginning of the twenty-first century, which of these arenas was the oldest still in use?</string>
+		<string>Which of these arenas was the oldest still in use?</string>
 		<key>answer</key>
 		<string>The Oracle Arena</string>
 		<key>choice01</key>
@@ -64,7 +64,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>The club currently known as the Houston Rockets originated in....</string>
+		<string>Houston Rockets originated in....</string>
 		<key>answer</key>
 		<string>San Diego, CA</string>
 		<key>choice01</key>
@@ -112,7 +112,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>The Washington Wizards has previously been known as all of the following EXCEPT:</string>
+		<string>Washington Wizards are known of the following EXCEPT:</string>
 		<key>answer</key>
 		<string>Washington Senators</string>
 		<key>choice01</key>

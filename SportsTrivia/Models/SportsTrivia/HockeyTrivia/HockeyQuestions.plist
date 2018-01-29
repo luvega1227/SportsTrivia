@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>question</key>
-		<string>Which of the following set a record for being the youngest 100 point player?</string>
+		<string>Who was the youngest 100 point player?</string>
 		<key>answer</key>
 		<string>Dale Hawerchuck </string>
 		<key>choice01</key>
@@ -40,7 +40,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Which of the following set a record for being the oldest player to reach his first 50 goal season?</string>
+		<string>Which oldest player reached his first 50 goal season?</string>
 		<key>answer</key>
 		<string>Johnny Bucyk</string>
 		<key>choice01</key>
@@ -52,7 +52,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Which of these players did not play in over 1500 regular season games in their career?</string>
+		<string>Who did not play in over 1500 season games?</string>
 		<key>answer</key>
 		<string>Larry Robinson</string>
 		<key>choice01</key>
@@ -64,7 +64,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Which of these NHL players did not score 50 goals in their rookie NHL season?</string>
+		<string>Who did not score 50 goals in their rookie season?</string>
 		<key>answer</key>
 		<string>Mario Lemieux</string>
 		<key>choice01</key>
@@ -76,7 +76,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Which of the following NHL teams played more playoff games in the 1990s than any other?</string>
+		<string>Who played more playoff games in the 1990s?</string>
 		<key>answer</key>
 		<string>Pittsburgh Penguins</string>
 		<key>choice01</key>
@@ -88,7 +88,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Which franchises boasts a history of being the most successful Minor League team prior to joining the NHL?</string>
+		<string>The most successful Minor League team before NHL?</string>
 		<key>answer</key>
 		<string>Vancouver Canucks</string>
 		<key>choice01</key>
@@ -112,7 +112,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>One of these teams has never existed. Which of these 4 teams never have been a member of the NHL?</string>
+		<string>Which team never have been a member of the NHL?</string>
 		<key>answer</key>
 		<string>Vancouver Millionaires</string>
 		<key>choice01</key>
@@ -124,7 +124,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Which of the following teams once lost 71 games in one season?</string>
+		<string>Which team lost 71 games in one season?</string>
 		<key>answer</key>
 		<string>San Jose Sharks</string>
 		<key>choice01</key>

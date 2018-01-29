@@ -47,7 +47,7 @@ class QuizViewController: UIViewController {
     
     // Timer
     var timer: Timer?
-    var time = 10
+    var time = 15
     @IBOutlet weak var timerLabel: UILabel!
     
     override func viewWillAppear(_ animated: Bool) {
@@ -318,7 +318,6 @@ class QuizViewController: UIViewController {
             questionsAsked += 1
             soundCoordinator.playIncorrectAnswerSound()
             disableButtons()
-            loadNextRoundWithDelay(seconds: 2)
             questionIndex += 1
             
             //choice1
@@ -368,7 +367,7 @@ class QuizViewController: UIViewController {
     func resetTimerAndButtons() {
         stopTimer()
         startTimer()
-        time = 10
+        time = 15
         timerLabel.text = "\(time)"
         timerLabel.textColor = UIColor.white
         questionField.textColor = UIColor.white

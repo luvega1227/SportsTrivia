@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>question</key>
-		<string>Which of these Yankee baseball greats set a Major League record for having 40 RBIs in World Series play?</string>
+		<string>Which Yankee set a record of 40 RBIs in the World Series?</string>
 		<key>answer</key>
 		<string>Mickey Mantle</string>
 		<key>choice01</key>
@@ -16,7 +16,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Which of these sluggers led their league in strikeouts the most times?</string>
+		<string>Who led their league in strikeouts the most times?</string>
 		<key>answer</key>
 		<string>Jimmie Foxx</string>
 		<key>choice01</key>
@@ -28,7 +28,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>The Baseball Hall of Fame inducted 5 players in 1936. Name an all star that was NOT included.</string>
+		<string>Baseball Hall of Fame inducted 5 players in 1936 EXCEPT:</string>
 		<key>answer</key>
 		<string>Lou Gehrig</string>
 		<key>choice01</key>
@@ -40,7 +40,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Which of these teams was 2 outs away in game 7 from winning their first World Series in 49 years, but still lost?</string>
+		<string>2 outs away from winning World Series in 49 years?</string>
 		<key>answer</key>
 		<string>Cleveland Indians</string>
 		<key>choice01</key>
@@ -52,7 +52,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>After the great Babe Ruth, who was the next Major Leaguer to hit 50 home runs in a season?</string>
+		<string>After Babe Ruth, who hit 50 home runs in a season?</string>
 		<key>answer</key>
 		<string>Hack Wilson</string>
 		<key>choice01</key>
@@ -64,7 +64,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Which of the following pitching greats lost 200+ games in their career?</string>
+		<string>Which pitcher lost 200+ games in their career?</string>
 		<key>answer</key>
 		<string>Warren Spahn</string>
 		<key>choice01</key>
@@ -76,7 +76,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Which of the following set a record for winning a batting title, and it being the lowest average for a batting crown?</string>
+		<string>Who set a record for winning a batting title?</string>
 		<key>answer</key>
 		<string>Carl Yastrzemski</string>
 		<key>choice01</key>
@@ -88,7 +88,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Which of following Hall of Fame and Cy Young pitching greats threw the most strikeouts in their career?</string>
+		<string>Who threw the most strikeouts in their career?</string>
 		<key>answer</key>
 		<string>Gaylord Perry</string>
 		<key>choice01</key>
@@ -100,7 +100,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>In the 1960s, 11 different teams went to the World Series. Which of the following was not one of them?</string>
+		<string>In 1960s, 11 teams went to the World Series EXCEPT?</string>
 		<key>answer</key>
 		<string>Cleveland Indians</string>
 		<key>choice01</key>
@@ -112,7 +112,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Which of the following did not have 3000 hits in their career?</string>
+		<string>Who did not have 3000 hits in their career?</string>
 		<key>answer</key>
 		<string>Rogers Hornsby</string>
 		<key>choice01</key>
@@ -124,7 +124,7 @@
 	</dict>
 	<dict>
 		<key>question</key>
-		<string>Which of the following never struck out 100 times in a season?</string>
+		<string>Who never struck out 100 times in a season?</string>
 		<key>answer</key>
 		<string>Babe Ruth</string>
 		<key>choice01</key>
